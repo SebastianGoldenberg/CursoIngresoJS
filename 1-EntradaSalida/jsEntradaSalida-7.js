@@ -4,6 +4,20 @@ mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
+	var primerNumero;
+	var segundoNumero;
+	var resultado;
+
+	primerNumero=document.getElementById('numeroUno').value;
+	primernumero=parseInt(primerNumero);
+	segundoNumero=document.getElementById('numeroDos').value;
+	segundonumero=parseInt(segundoNumero);
+
+	resultado=primerNumero+segundoNumero;
+    
+    console.log(resultado);
+	
+
 	
 }
 
